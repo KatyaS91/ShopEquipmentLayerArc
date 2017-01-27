@@ -8,7 +8,7 @@ import com.epam.task3.service.service.factory.ServiceFactory;
 /**
  * Created by skarzhynskaya_katya on 1/27/17.
  */
-public class WrongRequest {
+public class WrongRequest implements Command {
 
     public String execute(String request){
 
